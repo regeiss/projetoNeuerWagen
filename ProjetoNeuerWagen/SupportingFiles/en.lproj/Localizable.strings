@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  projetoNeuerWagen
+
+  Created by Roberto Edgar Geiss on 06/05/23.
+  
+*/
+/*
+    ViewName.ComponentName.Purpose
+    LandingView.Title
+    LandingView.Subtitle
+    LandingView.LoginButton.Title
+    LandingView.AreYouSureAlert.Title
+    LandingView.AreYouSureAlert.Description
+*/
+"ContentView.WelcomeMessage" = "Hello, World!";

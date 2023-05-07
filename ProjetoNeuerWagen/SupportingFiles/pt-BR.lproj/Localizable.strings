@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  projetoNeuerWagen
+
+  Created by Roberto Edgar Geiss on 06/05/23.
+  
+*/
+"ContentView.WelcomeMessage" = "Olá mundo!!";
