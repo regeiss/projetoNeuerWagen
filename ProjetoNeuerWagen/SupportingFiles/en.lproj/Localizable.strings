@@ -14,3 +14,11 @@
     LandingView.AreYouSureAlert.Description
 */
 "ContentView.WelcomeMessage" = "Hello, World!";
+"Login.UsernameField.Title" = "Username";
+"Login.PasswordField.Title" = "Password";
+"Login.LoginButton.Title" = "Login";
+"Login.UsernameField.Title" = "Username";
+"Login.PasswordField.Title" = "Password";
+"Login.LoginButton.Title" = "Login";
+"Home.Title" = "Welcome!";
+"Home.LogoutButton.Title" = "Logout";

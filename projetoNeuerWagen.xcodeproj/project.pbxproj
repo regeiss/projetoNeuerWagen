@@ -7,20 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10DDD732A08143400B0A914 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD722A08143400B0A914 /* LoginScreen.swift */; };
+		E10DDD752A08151A00B0A914 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD742A08151A00B0A914 /* LoginViewModel.swift */; };
+		E10DDD772A0815DC00B0A914 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD762A0815DC00B0A914 /* LoginRequest.swift */; };
+		E10DDD792A08161E00B0A914 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD782A08161E00B0A914 /* LoginResponse.swift */; };
+		E10DDD7B2A0816AD00B0A914 /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD7A2A0816AD00B0A914 /* LoginAction.swift */; };
+		E10DDD7F2A0866B600B0A914 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = E10DDD7E2A0866B600B0A914 /* SwiftKeychainWrapper */; };
+		E10DDD812A0866F600B0A914 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD802A0866F600B0A914 /* Auth.swift */; };
+		E10DDD842A08691900B0A914 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD832A08691900B0A914 /* HomeScreen.swift */; };
+		E10DDD872A0869F900B0A914 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD862A0869F900B0A914 /* HomeViewModel.swift */; };
+		E10DDD8B2A086AF500B0A914 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD8A2A086AF500B0A914 /* RootScreen.swift */; };
+		E10DDD8D2A086C9200B0A914 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD8C2A086C9200B0A914 /* Credentials.swift */; };
+		E10DDD8F2A086CA300B0A914 /* KeychainKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD8E2A086CA300B0A914 /* KeychainKey.swift */; };
+		E10DDD922A0871C600B0A914 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD912A0871C600B0A914 /* MainButton.swift */; };
+		E10DDD942A08734C00B0A914 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD932A08734C00B0A914 /* Config.swift */; };
+		E10DDD962A08738E00B0A914 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD952A08738E00B0A914 /* APIRequest.swift */; };
+		E10DDD982A0875F000B0A914 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD972A0875F000B0A914 /* APIError.swift */; };
 		E1B548772A06AC5C00F72CDD /* projetoNeuerWagenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */; };
 		E1B548792A06AC5C00F72CDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B548782A06AC5C00F72CDD /* ContentView.swift */; };
 		E1B5487B2A06AC5D00F72CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B5487A2A06AC5D00F72CDD /* Assets.xcassets */; };
-		E1B5487E2A06AC5D00F72CDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B5487D2A06AC5D00F72CDD /* Preview Assets.xcassets */; };
+		E1B5487E2A06AC5D00F72CDD /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B5487D2A06AC5D00F72CDD /* AppIcon.xcassets */; };
 		E1B548882A06BA0300F72CDD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1B5488A2A06BA0300F72CDD /* Localizable.strings */; };
 		E1B5488F2A071C2800F72CDD /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5488E2A071C2800F72CDD /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10DDD722A08143400B0A914 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginScreen.swift; path = ProjetoNeuerWagen/Code/Features/Login/Screens/LoginScreen.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD742A08151A00B0A914 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ProjetoNeuerWagen/Code/Features/Login/ViewModel/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD762A0815DC00B0A914 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginRequest.swift; path = ProjetoNeuerWagen/Code/Features/Login/Models/LoginRequest.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD782A08161E00B0A914 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginResponse.swift; path = ProjetoNeuerWagen/Code/Features/Login/Models/LoginResponse.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD7A2A0816AD00B0A914 /* LoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginAction.swift; path = ProjetoNeuerWagen/Code/Features/Login/Actions/LoginAction.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD802A0866F600B0A914 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = ProjetoNeuerWagen/Code/Utilities/Auth.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD832A08691900B0A914 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreen.swift; path = ProjetoNeuerWagen/Code/Features/Home/Screens/HomeScreen.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD862A0869F900B0A914 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ProjetoNeuerWagen/Code/Features/Home/ViewModel/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD8A2A086AF500B0A914 /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootScreen.swift; path = ProjetoNeuerWagen/Code/Features/Root/Screens/RootScreen.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD8C2A086C9200B0A914 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = ProjetoNeuerWagen/Code/Features/Common/Models/Credentials.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD8E2A086CA300B0A914 /* KeychainKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeychainKey.swift; path = ProjetoNeuerWagen/Code/Features/Common/Models/KeychainKey.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD912A0871C600B0A914 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainButton.swift; path = ProjetoNeuerWagen/Code/Features/Common/ViewModifiers/MainButton.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD932A08734C00B0A914 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Config.swift; path = ProjetoNeuerWagen/Code/Utilities/Config.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD952A08738E00B0A914 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = ProjetoNeuerWagen/Code/Utilities/APIRequest.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD972A0875F000B0A914 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = ProjetoNeuerWagen/Code/Utilities/APIError.swift; sourceTree = SOURCE_ROOT; };
 		E1B548732A06AC5C00F72CDD /* ProjetoNeuerWagen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoNeuerWagen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projetoNeuerWagenApp.swift; sourceTree = "<group>"; };
 		E1B548782A06AC5C00F72CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1B5487A2A06AC5D00F72CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1B5487D2A06AC5D00F72CDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1B5487D2A06AC5D00F72CDD /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		E1B548892A06BA0300F72CDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E1B5488B2A06BB8D00F72CDD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E1B5488E2A071C2800F72CDD /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -31,12 +62,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10DDD7F2A0866B600B0A914 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10DDD6D2A08131000B0A914 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD7A2A0816AD00B0A914 /* LoginAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		E10DDD6E2A08131C00B0A914 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD762A0815DC00B0A914 /* LoginRequest.swift */,
+				E10DDD782A08161E00B0A914 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10DDD6F2A08132600B0A914 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD742A08151A00B0A914 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E10DDD702A08133200B0A914 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E10DDD712A08141600B0A914 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD722A08143400B0A914 /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E10DDD822A08690000B0A914 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD832A08691900B0A914 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E10DDD852A0869E400B0A914 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD862A0869F900B0A914 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E10DDD882A086AD200B0A914 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD892A086ADA00B0A914 /* Screens */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		E10DDD892A086ADA00B0A914 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD8A2A086AF500B0A914 /* RootScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E10DDD902A0871AA00B0A914 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E10DDD912A0871C600B0A914 /* MainButton.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		E1B5486A2A06AC5C00F72CDD = {
 			isa = PBXGroup;
 			children = (
@@ -56,14 +168,12 @@
 		E1B548752A06AC5C00F72CDD /* projetoNeuerWagen */ = {
 			isa = PBXGroup;
 			children = (
-				E1B5489C2A0724FC00F72CDD /* Resources */,
-				E1B5489B2A0724EB00F72CDD /* Config */,
-				E1B5488C2A071C0300F72CDD /* Code */,
-				E1B548852A06B93600F72CDD /* SupportingFiles */,
-				E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */,
-				E1B548782A06AC5C00F72CDD /* ContentView.swift */,
 				E1B5487A2A06AC5D00F72CDD /* Assets.xcassets */,
+				E1B5488C2A071C0300F72CDD /* Code */,
+				E1B5489B2A0724EB00F72CDD /* Config */,
 				E1B5487C2A06AC5D00F72CDD /* Preview Content */,
+				E1B5489C2A0724FC00F72CDD /* Resources */,
+				E1B548852A06B93600F72CDD /* SupportingFiles */,
 			);
 			path = projetoNeuerWagen;
 			sourceTree = "<group>";
@@ -71,7 +181,6 @@
 		E1B5487C2A06AC5D00F72CDD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E1B5487D2A06AC5D00F72CDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,6 +188,8 @@
 		E1B548852A06B93600F72CDD /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				E1B548782A06AC5C00F72CDD /* ContentView.swift */,
+				E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */,
 				E1B5488A2A06BA0300F72CDD /* Localizable.strings */,
 			);
 			path = SupportingFiles;
@@ -104,6 +215,7 @@
 		E1B548902A071E8E00F72CDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E10DDD882A086AD200B0A914 /* Root */,
 				E1B548952A0720E100F72CDD /* Common */,
 				E1B548932A07202E00F72CDD /* Settings */,
 				E1B548922A07202400F72CDD /* Home */,
@@ -115,6 +227,11 @@
 		E1B548912A07201900F72CDD /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E10DDD712A08141600B0A914 /* Screens */,
+				E10DDD702A08133200B0A914 /* Views */,
+				E10DDD6F2A08132600B0A914 /* ViewModel */,
+				E10DDD6E2A08131C00B0A914 /* Models */,
+				E10DDD6D2A08131000B0A914 /* Actions */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -122,6 +239,8 @@
 		E1B548922A07202400F72CDD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E10DDD852A0869E400B0A914 /* ViewModel */,
+				E10DDD822A08690000B0A914 /* Screens */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -137,6 +256,10 @@
 			isa = PBXGroup;
 			children = (
 				E1B5488D2A071C0E00F72CDD /* Extensions */,
+				E10DDD802A0866F600B0A914 /* Auth.swift */,
+				E10DDD932A08734C00B0A914 /* Config.swift */,
+				E10DDD952A08738E00B0A914 /* APIRequest.swift */,
+				E10DDD972A0875F000B0A914 /* APIError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -144,6 +267,7 @@
 		E1B548952A0720E100F72CDD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E10DDD902A0871AA00B0A914 /* ViewModifiers */,
 				E1B5489A2A07242E00F72CDD /* Screens */,
 				E1B548992A07232400F72CDD /* ViewModel */,
 				E1B548982A07230E00F72CDD /* Views */,
@@ -163,6 +287,8 @@
 		E1B548972A07230400F72CDD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E10DDD8C2A086C9200B0A914 /* Credentials.swift */,
+				E10DDD8E2A086CA300B0A914 /* KeychainKey.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +324,7 @@
 		E1B5489C2A0724FC00F72CDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1B5487D2A06AC5D00F72CDD /* AppIcon.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -212,13 +339,16 @@
 				E1B5486F2A06AC5C00F72CDD /* Sources */,
 				E1B548702A06AC5C00F72CDD /* Frameworks */,
 				E1B548712A06AC5C00F72CDD /* Resources */,
-				E1B548842A06B07900F72CDD /* ShellScript */,
+				E1B548842A06B07900F72CDD /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ProjetoNeuerWagen;
+			packageProductDependencies = (
+				E10DDD7E2A0866B600B0A914 /* SwiftKeychainWrapper */,
+			);
 			productName = projetoNeuerWagen;
 			productReference = E1B548732A06AC5C00F72CDD /* ProjetoNeuerWagen.app */;
 			productType = "com.apple.product-type.application";
@@ -248,6 +378,9 @@
 				"pt-BR",
 			);
 			mainGroup = E1B5486A2A06AC5C00F72CDD;
+			packageReferences = (
+				E10DDD7D2A0866B600B0A914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = E1B548742A06AC5C00F72CDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,7 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B5487E2A06AC5D00F72CDD /* Preview Assets.xcassets in Resources */,
+				E1B5487E2A06AC5D00F72CDD /* AppIcon.xcassets in Resources */,
 				E1B548882A06BA0300F72CDD /* Localizable.strings in Resources */,
 				E1B5487B2A06AC5D00F72CDD /* Assets.xcassets in Resources */,
 			);
@@ -271,7 +404,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E1B548842A06B07900F72CDD /* ShellScript */ = {
+		E1B548842A06B07900F72CDD /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -281,6 +414,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -297,8 +431,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B5488F2A071C2800F72CDD /* StringExtensions.swift in Sources */,
+				E10DDD872A0869F900B0A914 /* HomeViewModel.swift in Sources */,
+				E10DDD732A08143400B0A914 /* LoginScreen.swift in Sources */,
 				E1B548792A06AC5C00F72CDD /* ContentView.swift in Sources */,
+				E10DDD8D2A086C9200B0A914 /* Credentials.swift in Sources */,
+				E10DDD7B2A0816AD00B0A914 /* LoginAction.swift in Sources */,
+				E10DDD772A0815DC00B0A914 /* LoginRequest.swift in Sources */,
+				E10DDD752A08151A00B0A914 /* LoginViewModel.swift in Sources */,
+				E10DDD842A08691900B0A914 /* HomeScreen.swift in Sources */,
+				E10DDD8F2A086CA300B0A914 /* KeychainKey.swift in Sources */,
 				E1B548772A06AC5C00F72CDD /* projetoNeuerWagenApp.swift in Sources */,
+				E10DDD792A08161E00B0A914 /* LoginResponse.swift in Sources */,
+				E10DDD812A0866F600B0A914 /* Auth.swift in Sources */,
+				E10DDD942A08734C00B0A914 /* Config.swift in Sources */,
+				E10DDD962A08738E00B0A914 /* APIRequest.swift in Sources */,
+				E10DDD8B2A086AF500B0A914 /* RootScreen.swift in Sources */,
+				E10DDD922A0871C600B0A914 /* MainButton.swift in Sources */,
+				E10DDD982A0875F000B0A914 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +664,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E10DDD7D2A0866B600B0A914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E10DDD7E2A0866B600B0A914 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E10DDD7D2A0866B600B0A914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1B5486B2A06AC5C00F72CDD /* Project object */;
 }
