@@ -23,6 +23,7 @@
 		E10DDD942A08734C00B0A914 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD932A08734C00B0A914 /* Config.swift */; };
 		E10DDD962A08738E00B0A914 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD952A08738E00B0A914 /* APIRequest.swift */; };
 		E10DDD982A0875F000B0A914 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD972A0875F000B0A914 /* APIError.swift */; };
+		E10DDD9A2A09BA9900B0A914 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DDD992A09BA9900B0A914 /* NetworkMonitor.swift */; };
 		E1B548772A06AC5C00F72CDD /* projetoNeuerWagenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */; };
 		E1B548792A06AC5C00F72CDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B548782A06AC5C00F72CDD /* ContentView.swift */; };
 		E1B5487B2A06AC5D00F72CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B5487A2A06AC5D00F72CDD /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		E10DDD932A08734C00B0A914 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Config.swift; path = ProjetoNeuerWagen/Code/Utilities/Config.swift; sourceTree = SOURCE_ROOT; };
 		E10DDD952A08738E00B0A914 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = ProjetoNeuerWagen/Code/Utilities/APIRequest.swift; sourceTree = SOURCE_ROOT; };
 		E10DDD972A0875F000B0A914 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = ProjetoNeuerWagen/Code/Utilities/APIError.swift; sourceTree = SOURCE_ROOT; };
+		E10DDD992A09BA9900B0A914 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkMonitor.swift; path = ProjetoNeuerWagen/Code/Utilities/NetworkMonitor.swift; sourceTree = SOURCE_ROOT; };
 		E1B548732A06AC5C00F72CDD /* ProjetoNeuerWagen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoNeuerWagen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B548762A06AC5C00F72CDD /* projetoNeuerWagenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projetoNeuerWagenApp.swift; sourceTree = "<group>"; };
 		E1B548782A06AC5C00F72CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				E10DDD932A08734C00B0A914 /* Config.swift */,
 				E10DDD952A08738E00B0A914 /* APIRequest.swift */,
 				E10DDD972A0875F000B0A914 /* APIError.swift */,
+				E10DDD992A09BA9900B0A914 /* NetworkMonitor.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -339,7 +342,7 @@
 				E1B5486F2A06AC5C00F72CDD /* Sources */,
 				E1B548702A06AC5C00F72CDD /* Frameworks */,
 				E1B548712A06AC5C00F72CDD /* Resources */,
-				E1B548842A06B07900F72CDD /* SwiftLint */,
+				E1B548842A06B07900F72CDD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -446,6 +449,7 @@
 				E10DDD942A08734C00B0A914 /* Config.swift in Sources */,
 				E10DDD962A08738E00B0A914 /* APIRequest.swift in Sources */,
 				E10DDD8B2A086AF500B0A914 /* RootScreen.swift in Sources */,
+				E10DDD9A2A09BA9900B0A914 /* NetworkMonitor.swift in Sources */,
 				E10DDD922A0871C600B0A914 /* MainButton.swift in Sources */,
 				E10DDD982A0875F000B0A914 /* APIError.swift in Sources */,
 			);
