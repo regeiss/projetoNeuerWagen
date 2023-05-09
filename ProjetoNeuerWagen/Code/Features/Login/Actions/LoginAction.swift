@@ -13,11 +13,14 @@ struct LoginAction
     let method: HTTPMethod = .post
     var parameters: LoginRequest
     
-    func call(completion: @escaping (LoginResponse) -> Void)
-    {
+    func call(
+        completion: @escaping (LoginResponse) -> Void,
+        failure: @escaping (APIError) -> Void // Added this
+    ) {
         APIRequest<LoginRequest, LoginResponse>.call(
             path: path,
             method: .post,
+            authorized: false,
             parameters: parameters
         ) { data in
             if let response = try? JSONDecoder().decode(
@@ -28,8 +31,10 @@ struct LoginAction
             }
             else
             {
-                print("Unable to decode response JSON")
+                failure(.jsonDecoding) // Added this
             }
+        } failure: { error in
+            failure(error) // Added this
         }
     }
 }
