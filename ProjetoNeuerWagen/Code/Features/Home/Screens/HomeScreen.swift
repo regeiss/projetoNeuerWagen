@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeScreen: View
 {
-    
+    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     @ObservedObject var viewModel: HomeViewModel = HomeViewModel()
     
     var body: some View
@@ -32,13 +32,9 @@ struct HomeScreen: View
             )
         }
         .padding(30)
-    }
-}
-
-struct HomeScreen_Previews: PreviewProvider
-{
-    static var previews: some View
-    {
-        HomeScreen()
+        .sheet(isPresented: $needsAppOnboarding)
+        {
+            OnBoardingScreen()
+        }
     }
 }

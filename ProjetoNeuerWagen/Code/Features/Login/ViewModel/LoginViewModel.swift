@@ -14,8 +14,6 @@ class LoginViewModel: ObservableObject
 
     var error: APIError?
     
-    let savePublisher = NotificationCenter.default.publisher(for: NSNotification.Name("Error"))
-    
     func login()
     {
         LoginAction(
@@ -32,8 +30,6 @@ class LoginViewModel: ObservableObject
             )
         } failure: { error in
             self.error = error
-            //NotificationCenter.default.post(name: NSNotification.Name("Filtro"), object: nil, userInfo: ["Erro" :error])
-            // Publishing changes from background threads is not allowed; make sure to publish values from the main thread (via operators like receive(on:)) on model updates.
         }
     }
 }

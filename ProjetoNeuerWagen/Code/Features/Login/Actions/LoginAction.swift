@@ -13,10 +13,8 @@ struct LoginAction
     let method: HTTPMethod = .post
     var parameters: LoginRequest
     
-    func call(
-        completion: @escaping (LoginResponse) -> Void,
-        failure: @escaping (APIError) -> Void // Added this
-    ) {
+    func call(completion: @escaping (LoginResponse) -> Void, failure: @escaping (APIError) -> Void)
+    {
         APIRequest<LoginRequest, LoginResponse>.call(
             path: path,
             method: .post,
@@ -31,10 +29,10 @@ struct LoginAction
             }
             else
             {
-                failure(.jsonDecoding) // Added this
+                failure(.jsonDecoding)
             }
         } failure: { error in
-            failure(error) // Added this
+            failure(error)
         }
     }
 }

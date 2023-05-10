@@ -59,4 +59,3 @@ struct LoginScreen: View
         .padding(20)
     }
 }
-
