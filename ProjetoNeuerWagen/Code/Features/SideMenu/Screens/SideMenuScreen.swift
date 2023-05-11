@@ -10,9 +10,8 @@ import SwiftUI
 struct SideMenuView: View
 {
     @Binding var showMenu: Bool
-    let router = MyRouter.shared
-    let appBuild = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
-    //Text("Versão \(Bundle.versionBuild)").bold().font(.title).foregroundColor(.secondary)
+
+    let appBuild = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
 
     var body: some View
     {
@@ -31,7 +30,7 @@ struct SideMenuView: View
             .onTapGesture
             {
                 showMenu = false
-                router.toLogin()
+                // router.toLogin()
             }
             HStack
             {
@@ -46,7 +45,7 @@ struct SideMenuView: View
             .onTapGesture
             {
                 showMenu = false
-                router.toListaPerfil()
+                // router.toListaPerfil()
             }
             HStack
             {
@@ -61,7 +60,7 @@ struct SideMenuView: View
             .onTapGesture
             {
                 showMenu = false
-                router.toMenu()
+                // router.toMenu()
             }
             HStack
             {
@@ -76,13 +75,13 @@ struct SideMenuView: View
             .onTapGesture
             {
                 showMenu = false
-                router.toConfig()
+                // router.toConfig()
             }
             Spacer()
             HStack
             {
                 Text("WerkstadtG v.")
-                Text(appBuild)
+                Text(appBuild ?? "1.0")
                     .foregroundColor(.gray)
             }.padding([.leading, .bottom])
         }.padding()

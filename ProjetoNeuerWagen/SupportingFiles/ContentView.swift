@@ -11,7 +11,7 @@ struct ContentView: View
 {
     var body: some View
     {
-        RootScreen()
+        RootScreen(showMenu: false)
             .environmentObject(Auth.shared)
     }
 }
